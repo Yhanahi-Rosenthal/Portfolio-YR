@@ -260,7 +260,7 @@
         position: absolute;
         margin: 1rem 0 0 3rem;
         background-color: rgba(255, 255, 255, 0.863);
-        width: 16.4rem;
+        width: 16rem;
         height: 12rem;
         border: solid;
         border-color: rgba(255, 255, 255, 0.088);
@@ -283,7 +283,7 @@
         z-index: -1;
         position: absolute;
         background-color: rgba(255, 255, 255, 0);
-        width: 16.5rem;
+        width: 16rem;
         height: 12rem;
         border: solid;
         border-color: rgba(255, 255, 255, 0.088);
@@ -301,7 +301,7 @@
         position: absolute;
         font-size: 0.8rem;
         background-color: rgba(0, 0, 0, 0.607);
-        margin: 4rem 0 0 3.8rem;
+        margin: 5rem 0 0 4.7rem;
         border: solid;
         border-color: rgba(255, 255, 255, 0.103);
         padding:0.5rem 1rem 0.5rem 1rem;
