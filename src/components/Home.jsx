@@ -14,16 +14,16 @@ export default function About(){
             <Bg className='bg'/>
             <img src={fondo} className='backphoto' />
             <div className='IAM'>
-                <p className='hi'>HI,</p>
-                <p className='myname'>MY NAME IS YHANAHI ROSENTHAL </p>
-                <p className='and'>AND</p>
-                <p className='im'>I'M FRONT END DEVELOPER</p>
+                <p className='hi'>HOLA!</p>
+                <p className='myname'>MI NOMBRE ES YHANAHI ROSENTHAL </p>
+                <p className='and'>Y</p>
+                <p className='im'>SOY FRONT END DEVELOPER</p>
             </div>
             <img src={fondo3} className='backphoto3' />
             <div className='BackbackCard'>
                 <div className='backCard'>
                     <div className="resume">
-                        <h2 className='title'>About me</h2>
+                        <h2 className='title'>Sobre mi</h2>
                         <p className='resuming'>
                             Mi nombre es Yhanahi Rosenthal y soy desarrollador Front end.
                             <br /><br />
@@ -45,8 +45,7 @@ export default function About(){
                         Estoy en camino a ser desarrollador FullStack pero de momento me concentro 
                         en mejorar al maximo mis habilidades como Diseñador web y desarrollador Front end, ademas estoy estudiando ingles por mi cuenta.
                         <br /><br />
-                        Hay muchas librerias de diseño que ayudan a un desarrollador a lograr resultados mas rapidos pero
-                        yo prefiero diseñar y construir paginas por mi mismo para darle el mejor estilo.
+                        Me gusta diseñar y construir paginas para darle el mejor estilo.
                         <br /><br />
                         Ademas, me gusta aprender de todo y disfruto haciendolo.
                         <br /><br />

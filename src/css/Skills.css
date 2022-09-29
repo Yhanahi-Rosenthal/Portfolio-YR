@@ -205,7 +205,7 @@
   .myskills{
     z-index: -99;
     position: absolute;
-    margin: -10rem 0 0 4rem;
+    margin: -10rem 0 0 5rem;
     height: 0;
   }
   .skill p{
@@ -240,7 +240,7 @@
   .pepe{
     z-index: -999;
     position: absolute;
-    margin: 30rem 0 0 1.5rem;
+    margin: 25rem 0 0 1.5rem;
     width: 90%; 
     height: 40vh;
   }

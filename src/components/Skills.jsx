@@ -36,11 +36,11 @@ function Skills(){
                             problemas y mantiene la atencion muy bien
                             en su trabajo.
                             <br /><br />
-                            Aprendo facil y rapido, mis habilidades son
-                            las que estan a la deracha, mis diseños son responsive.
+                            Aprendo facil y rapido. Mis diseños son responsive.
+                            Los lenguajes que pueden ver son los que domino hasta el momento.
                             <br /><br />
-                            Ademas, estoy aprendiendo a usar Three js para
-                            hacer este tipo de diseños 3D que son interactivos y los hago orientados
+                            Ademas, estoy aprendiendo la libreria 'Three js' para
+                            hacer este tipo de diseños 3D que son interactivos y orientados
                             a paginas web.
                         </p>
                         <Link to='/Contact' className='link1'>Trabajemos juntos en algo interesante.</Link>

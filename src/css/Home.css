@@ -53,9 +53,13 @@
 
 .IAM p{
     margin: 0 0 0 13rem;
-    font-size: 6em;
+    font-size: 5em;
     color: white;
     font-family: 'Bebas Neue', cursive;
+}
+
+.IAM{
+    z-index: -1;
 }
 
 .backphoto{

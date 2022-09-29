@@ -3,6 +3,7 @@
 }
 
 .Navbar{
+    z-index: 9;
     background-color: #1c102395;
     display: flex;
     justify-content: center;
