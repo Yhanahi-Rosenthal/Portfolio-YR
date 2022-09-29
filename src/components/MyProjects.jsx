@@ -4,10 +4,14 @@ import {Link} from 'react-router-dom';
 import Shein from '../img/SheinImage.png'
 import Cake from '../img/cake.png'
 import Blent from '../img/blent.png'
+import Spinner from './Spinner';
 
 
 export default function MyProjects(){
     return(<>
+            <div className="backgroundPro">
+                <Spinner />
+            </div>
             <div className="container">
                 <Wave />
                 <div className='titlePro'>

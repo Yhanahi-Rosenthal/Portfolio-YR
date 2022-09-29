@@ -1,12 +1,14 @@
 import Space from './Space';
 import '../css/contact.css';
+import Spinner from './Spinner';
 
 
 export default function Contact(){
   
 
     return(
-        <>
+        <>  
+            <Spinner />
              <Space />
            <div>
             <h1 className='h1'>Contactame</h1>

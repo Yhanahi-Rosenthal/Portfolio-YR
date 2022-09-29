@@ -3,10 +3,15 @@ import { motion } from 'framer-motion'
 import { Link } from "react-router-dom";
 import Scene from './Scene';
 import StarsScene from './StarsScene';
+import Spinner from './Spinner';
 
 function Skills(){
     return(<>
+        <div className="backgroundSkill">
+            <Spinner />
+        </div>
         <div>
+        
             <StarsScene />
             <div className="myskills">
                 <p className="p0">M</p>

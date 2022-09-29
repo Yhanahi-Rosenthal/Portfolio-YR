@@ -6,6 +6,15 @@
     margin:6rem 0 0 0; 
 }
 
+.backgroundPro{
+    z-index: 10;
+    margin-top: 6rem;
+    position: fixed;
+    background-color:rgb(245, 222, 179) ;
+    width: 0;
+    height: 100%;
+  }
+
 .myProjectContainer{
     display: flex;
     justify-content: center;
@@ -208,6 +217,14 @@
         width: 14.5rem;
         height: 10rem;
     }
+    .backgroundPro{
+        z-index: 10;
+        margin-top:3rem;
+        position: fixed;
+        background-color:rgb(245, 222, 179) ;
+        width: 0;
+        height: 100%;
+      }
 }
 
 @media screen and (max-width: 426px) {
@@ -293,6 +310,14 @@
         border-color: rgba(255, 255, 255, 0);
         transition: 0.2s;
     }
+    .backgroundPro{
+        z-index: 10;
+        margin-top: 1.5rem;
+        position: fixed;
+        background-color:rgb(245, 222, 179) ;
+        width: 0;
+        height: 100%;
+      }
 }
 
 @media screen and (max-width: 376px){
