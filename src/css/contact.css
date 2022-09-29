@@ -179,7 +179,7 @@
         .contenedor{
                 display: flex;
                 justify-content: center;
-                margin: 0 0 -1rem 0;
+                margin: 0 0 3rem 0;
         }
         .containerContact{
                 z-index: -2;
@@ -191,8 +191,8 @@
                 border-color: rgba(0, 0, 0, 0);
                 border-radius: 2rem;
                 box-shadow: rgba(255, 151, 47, 0.818) 0 0 1rem;
-                width: 17rem;
-                height: 20rem;
+                width: 20rem;
+                height: 21rem;
             }
             .enlaces{
                 z-index: -1;

@@ -131,6 +131,55 @@
 
     .IAM p{
         margin: 0 0 0 4rem;
+        font-size: 1.7em;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+    }
+    .backCard{
+        background-color: rgba(78, 78, 78, 0.077);
+        box-shadow: 0 0 1rem black;
+        border-radius: 1rem;
+        width: 19rem;
+        height: 18rem;
+        margin: -3rem 0 0 0;
+    }
+    .backCard1{
+        background-color: rgba(42, 42, 42, 0.238);
+        box-shadow: 0 0 1rem black;
+        border-radius: 1rem;
+        width: 19rem;
+        height: 31rem;
+        margin: -3rem 0 0 0;
+    }
+    .resuming{
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 0.8rem;
+        color: white;
+        margin: 1rem 2rem 0 2rem;
+    }
+
+    .link{
+        color: rgb(255, 170, 0);
+        font-size: 0.8rem;
+        transition: 0.2s;
+    }
+
+    .title{
+        font-size: 1.2rem;
+    }
+
+    .resume{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+
+
+    .IAM p{
+        margin: 0 0 0 4rem;
         font-size: 1.4em;
         color: white;
         font-family: 'Bebas Neue', cursive;
@@ -139,38 +188,23 @@
         background-color: rgba(78, 78, 78, 0.077);
         box-shadow: 0 0 1rem black;
         border-radius: 1rem;
-        width: 15rem;
-        height: 15rem;
-        margin: -4rem 0 0 1rem;
+        width: 16rem;
+        height: 20rem;
+        margin: -3rem 0 0 0;
     }
     .backCard1{
         background-color: rgba(42, 42, 42, 0.238);
         box-shadow: 0 0 1rem black;
         border-radius: 1rem;
-        width: 15rem;
-        height: 27rem;
-        margin: -4rem 0 0 1rem;
+        width: 16rem;
+        height: 36rem;
+        margin: -3rem 0 0 0;
     }
     .resuming{
         text-align: center;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         color: white;
-        margin: 2rem 3rem 0 3rem;
+        margin: 1rem 2rem 0 2rem;
     }
-
-    .link{
-        color: rgb(255, 170, 0);
-        font-size: 0.6rem;
-        transition: 0.2s;
-    }
-
-    .title{
-        font-size: 0.8rem;
-    }
-
-    .resume{
-        font-size: 0.8rem;
-    }
-
 }
