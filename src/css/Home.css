@@ -74,8 +74,17 @@
     margin: 20rem 3rem 0 0;
     width: 100%;
 }
+/* 
+@media screen and (max-width: 1024px){
+    .IAM p{
+        margin: 0 0 0 7rem;
+        font-size: 3em;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+    }
+} */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .IAM p{
         margin: 0 0 0 7rem;
         font-size: 3em;
