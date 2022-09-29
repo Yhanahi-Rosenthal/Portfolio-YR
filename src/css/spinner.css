@@ -9,7 +9,7 @@
     position: absolute;
     width: 8px;
     height: 8px;
-    background: rgb(255, 162, 0);
+    background: rgb(255, 183, 58);
     box-shadow: rgb(255, 174, 0) 0 0 0.1rem;
     border-radius: 50%;
     animation: lds-default 1.2s linear infinite;
