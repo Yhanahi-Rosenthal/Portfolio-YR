@@ -1,0 +1,391 @@
+.space{
+    position: fixed;
+}
+
+.bg1{
+    z-index: -6;
+    position: absolute;
+    margin: 10rem 0 0 25rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 6s linear;
+}
+
+p{
+    color: #ffffff00;
+}
+
+@keyframes bg1 {
+    from {
+        transform:translate(-90rem, 0rem);
+      }
+      to {
+        transform: translate(90rem, 0rem);
+      }
+  }
+
+  @keyframes bg2{
+    from {
+      transform:translate(-90rem, 0rem);
+    }
+    to {
+      transform: translate(90rem, 0rem);
+    }
+  }
+
+  .bg2{
+    z-index: -6;
+    position: absolute;
+    margin: 6rem 0 0 50rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 6s linear;
+}
+
+.bg3{
+    z-index: -6;
+    position: absolute;
+    margin: 5rem 0 0 14rem;
+    text-align: center;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 6s linear;
+}
+
+.bg4{
+    z-index: -6;
+    position: absolute;
+    margin: 13rem 0 0 73rem;
+    text-align: center;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 6s linear;
+}
+
+.bg5{
+    z-index: -6;
+    position: absolute;
+    margin: 14rem 0 0 56rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 6s linear;
+}
+
+.bg6{
+    z-index: -6;
+    position: absolute;
+    margin: 15rem 0 0 53rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 7.3s linear;
+}
+
+.bg7{
+    z-index: -6;
+    position: absolute;
+    margin: 2rem 0 0 24rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 5s linear;
+}
+
+.bg8{
+    z-index: -6;
+    position: absolute;
+    margin: 16rem 0 0 62rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 13s linear;
+}
+
+.bg9{
+    z-index: -6;
+    position: absolute;
+    margin: 16rem 0 0 30rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 6s linear;
+}
+
+.bg10{
+    z-index: -6;
+    position: absolute;
+    margin: 30rem 0 0 58rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 7s linear;
+}
+
+.bg11{
+    z-index: -6;
+    position: absolute;
+    margin: 7rem 0 0 73rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 6s linear;
+}
+
+.bg12{
+    z-index: -6;
+    position: absolute;
+    margin: 7rem 0 0 45rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 6s linear;
+}
+
+.bg13{
+    z-index: -6;
+    position: absolute;
+    margin: 2rem 0 0 51rem;
+    text-align: center;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 6.6s linear;
+}
+
+.bg14{
+    z-index: -6;
+    position: absolute;
+    margin: 26rem 0 0 42rem;
+    text-align: center;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 6.2s linear;
+}
+
+.bg15{
+    z-index: -6;
+    position: absolute;
+    margin: 25rem 0 0 46rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 6s linear;
+}
+
+.bg16{
+    z-index: -6;
+    position: absolute;
+    margin: 15rem 0 0 38rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 13s linear;
+}
+
+.bg17{
+    z-index: -6;
+    position: absolute;
+    margin: 19rem 0 0 68rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 6s linear;
+}
+
+.bg18{
+    z-index: -6;
+    position: absolute;
+    margin: 11rem 0 0 68rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 7.6s linear;
+}
+
+.bg19{
+    z-index: -6;
+    position: absolute;
+    margin: 30rem 0 0 68rem;
+    text-align: center;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 6.8s linear;
+}
+
+.bg20{
+    z-index: -6;
+    position: absolute;
+    margin: 26rem 0 0 8rem;
+    text-align: center;
+    width: 0.2rem;
+    height: 0.2rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 5.7s linear;
+}
+
+.bg21{
+    z-index: -6;
+    position: absolute;
+    margin: 11rem 0 0 6rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 7s linear;
+}
+
+.bg22{
+    z-index: -6;
+    position: absolute;
+    margin: 24rem 0 0 9rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 5.5s linear;
+}
+
+.bg23{
+    z-index: -6;
+    position: absolute;
+    margin: 11rem 0 0 1rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 15s linear;
+}
+
+.bg24{
+    z-index: -6;
+    position: absolute;
+    margin: 30rem 0 0 60rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 6s linear;
+}
+
+.bg25{
+    z-index: -6;
+    position: absolute;
+    margin: 30rem 0 0 50rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 6s linear;
+}
+
+.bg26{
+    z-index: -6;
+    position: absolute;
+    margin: 17rem 0 0 10rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 13s linear;
+}
+
+.bg27{
+    z-index: -6;
+    position: absolute;
+    margin: 14rem 0 0 5rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 6s linear;
+}
+
+.bg28{
+    z-index: -6;
+    position: absolute;
+    margin: 21rem 0 0 3rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg2 infinite 6s linear;
+}
+
+.bg29{
+    z-index: -6;
+    position: absolute;
+    margin: 30rem 0 0 51rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 7.2s linear;
+}
+
+.bg30{
+    z-index: -6;
+    position: absolute;
+    margin: 30rem 0 0 55rem;
+    text-align: center;
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #ffffff;
+    border-radius: 20rem;
+    animation: bg1 infinite 7.1s linear;
+}
+
+@media screen and (max-width: 768px) {
+    .space{
+        display: none;
+    }
+}

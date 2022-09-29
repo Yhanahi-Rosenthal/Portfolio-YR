@@ -1,0 +1,305 @@
+.logo{
+    width: 2.5rem;
+    overflow: hidden;
+    -webkit-animation: pulsate-fwd 3s ease-in-out infinite both;
+	        animation: pulsate-fwd 3s ease-in-out infinite both;
+  }
+
+@-webkit-keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.html{
+  position: absolute;
+  margin: 3rem 0 0 20rem;
+}
+
+
+.myskills{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  font-family: 'Koulen', cursive;
+  font-size: 6rem;
+  margin: -3rem 0 -3rem 0;
+}
+
+.myskills p{
+  color: white;
+}
+
+.myskills{
+  position: absolute;
+  margin: -17rem 0 0 21rem;
+  height: 0;
+}
+
+.myskills h6{
+  color: rgba(245, 222, 179, 0);
+}
+
+.pepe{
+  position: absolute;
+  /* padding: 2rem 0 0 0; */
+  margin: -2rem 0 0 40rem;
+  /* background-color: white; */
+  width: 50%; 
+  height: 60vh;
+}
+
+.element{
+  background-color: white;
+  color: black;
+}
+
+.myskills p{
+  height: 0;
+  transition: 0.2s;
+}
+
+.myskills p:hover{
+  font-size: 6.1rem;
+  color: orange;
+}
+
+.backbackskill{
+  display: flex;
+  margin: 10rem 0 0 10rem;
+}
+
+.backskill{
+  background-color: rgba(78, 78, 78, 0.077);
+    box-shadow: 0 0 1rem black;
+    border-radius: 1rem;
+    width: 34rem;
+    height: 25rem;
+}
+
+.skill{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skill p{
+  margin: 2rem 2rem 0 2rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: white;
+}
+
+.link1{
+  margin: 2rem 2rem 0 2rem;
+  text-align: center;
+  color: #ffaa00;
+  font-size: 1.1rem;
+  transition: 0.2s;
+  text-decoration: none;
+}
+
+.link1:hover{
+  color: rgba(255, 170, 0, 0.792);
+}
+
+.stars{
+  z-index: -999;
+  position:absolute;
+  margin:-13rem 0 0 0;
+  width: 100%; 
+  height: 130%;
+}
+
+@media screen and (max-width: 768px){
+  .myskills p{
+    height: 0;
+    transition: 0.2s;
+    font-size: 4rem;
+  }
+  
+  .myskills p:hover{
+    font-size: 4.1rem;
+    color: orange;
+  }
+  .myskills{
+    position: absolute;
+    margin: -13rem 0 0 11rem;
+    height: 0;
+  }
+  .skill p{
+    margin: 2rem 2rem 0 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+  }
+  .link1{
+    margin: 2rem 2rem 0 2rem;
+    text-align: center;
+    color: #ffaa00;
+    font-size: 0.9rem;
+
+  }
+  
+  .link1:hover{
+    color: rgba(255, 170, 0, 0.792);
+  }
+  .backskill{
+    background-color: rgba(78, 78, 78, 0.077);
+      box-shadow: 0 0 1rem black;
+      border-radius: 1rem;
+      width: 25rem;
+      height: 20rem;
+      margin-bottom: 15rem;
+  } 
+  .pepe{
+    position: absolute;
+    margin: 20rem 0 0 11rem;
+    width: 60%; 
+    height: 60vh;
+  }
+  .stars{
+    z-index: -999;
+    position:absolute;
+    margin:-7rem 0 0 0;
+    width: 100%; 
+    height: 150%;
+  }
+}
+
+@media screen and (max-width: 426px){
+  .myskills p{
+    height: 0;
+    transition: 0.2s;
+    font-size: 2.7rem;
+  }
+  
+  .myskills p:hover{
+    font-size: 3.1rem;
+    color: orange;
+  }
+  .myskills{
+    z-index: -99;
+    position: absolute;
+    margin: -11rem 0 0 3rem;
+    height: 0;
+  }
+  .skill p{
+    margin: 2rem 2rem 0 2rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+  }
+  .link1{
+    margin: 2rem 2rem 0 2rem;
+    text-align: center;
+    color: #ffaa00;
+    font-size: 0.9rem;
+
+  }
+  
+  .link1:hover{
+    color: rgba(255, 170, 0, 0.792);
+  }
+  .backbackskill{
+    display: flex;
+    margin: 10rem 0 0 3rem;
+  }
+  .backskill{
+    background-color: rgba(78, 78, 78, 0.077);
+      box-shadow: 0 0 1rem black;
+      border-radius: 1rem;
+      width: 25rem;
+      height: 28rem;
+      margin:0 3rem 13rem 0;
+  } 
+  .pepe{
+    z-index: -999;
+    position: absolute;
+    margin: 30rem 0 0 2rem;
+    width: 80%; 
+    height: 40vh;
+  }
+  .stars{
+    z-index: -999;
+    position:absolute;
+    margin:-7rem 0 0 0;
+    width: 100%; 
+    height: 150%;
+  }
+}
+
+@media screen and (max-width: 376px){
+  .myskills p{
+    height: 0;
+    transition: 0.2s;
+    font-size: 2.5rem;
+  }
+  
+  .myskills p:hover{
+    font-size: 2.9rem;
+    color: orange;
+  }
+  .myskills{
+    z-index: -99;
+    position: absolute;
+    margin: -11rem 0 0 2rem;
+    height: 0;
+  }
+  .skill p{
+    margin: 2rem 2rem 0 2rem;
+    text-align: center;
+    font-size: 0.7rem;
+    color: white;
+  }
+  .link1{
+    margin: 2rem 2rem 0 2rem;
+    text-align: center;
+    color: #ffaa00;
+    font-size: 0.8rem;
+
+  }
+  .backbackskill{
+    display: flex;
+    margin: 10rem 0 0 3rem;
+  }
+  .backskill{
+    background-color: rgba(78, 78, 78, 0.077);
+      box-shadow: 0 0 1rem black;
+      border-radius: 1rem;
+      width: 25rem;
+      height: 27rem;
+      margin:0 3rem 10.5rem 0;
+  } 
+  .pepe{
+    z-index: -999;
+    position: absolute;
+    margin: 28rem 0 0 1.5rem;
+    width:80%; 
+    height: 40vh;
+  }
+}
