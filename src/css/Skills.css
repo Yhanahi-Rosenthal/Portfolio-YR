@@ -227,7 +227,7 @@
   }
   .backbackskill{
     display: flex;
-    margin: 10rem 0 0 3rem;
+    margin: 10rem 0 10rem 3rem;
   }
   .backskill{
     background-color: rgba(78, 78, 78, 0.077);
@@ -240,7 +240,7 @@
   .pepe{
     z-index: -999;
     position: absolute;
-    margin: 30rem 0 0 2rem;
+    margin: 30rem 0 0 1.5rem;
     width: 90%; 
     height: 40vh;
   }
