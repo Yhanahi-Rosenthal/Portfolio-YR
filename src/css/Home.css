@@ -52,8 +52,8 @@
 }
 
 .IAM p{
-    margin: 0 0 0 13rem;
-    font-size: 5em;
+    margin: 0 0 0 10rem;
+    font-size: 6em;
     color: white;
     font-family: 'Bebas Neue', cursive;
 }
@@ -74,12 +74,12 @@
     margin: 20rem 3rem 0 0;
     width: 100%;
 }
-/* 
-@media screen and (max-width: 1024px){
+
+/* @media screen and (min-width: 1140px){
     .IAM p{
-        margin: 0 0 0 7rem;
-        font-size: 3em;
-        color: white;
+        margin: 0 0 0 13rem;
+        font-size: 7em;
+        color: rgb(255, 255, 255);
         font-family: 'Bebas Neue', cursive;
     }
 } */
