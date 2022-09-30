@@ -22,10 +22,10 @@ export default function Navbar(){
                 <ul className='content'>                    
                     <li className='imgimg' onClick={()=>{upDate()}}><img src='./imgs/menu.png' className='menu'/>  
             {navbar && <ul>
-                            <li><NavLink to='/Home' className='LinkNavbar' activeClassName='active' >Home</NavLink></li>
-                            <li><NavLink to='/Skills' className='LinkNavbar' activeClassName='active'>Skills</NavLink></li>
-                            <li><NavLink to='/MyProjects' className='LinkNavbar' activeClassName='active' >MyProjects</NavLink></li>
-                            <li><NavLink to='/Contact' className='LinkNavbar' activeClassName='active' >Contact</NavLink></li>
+                            <li><NavLink to='/Home' className='LinkNavbar1' activeClassName='active' >Home</NavLink></li>
+                            <li><NavLink to='/Skills' className='LinkNavbar1' activeClassName='active'>Skills</NavLink></li>
+                            <li><NavLink to='/MyProjects' className='LinkNavbar1' activeClassName='active' >MyProjects</NavLink></li>
+                            <li><NavLink to='/Contact' className='LinkNavbar1' activeClassName='active' >Contact</NavLink></li>
                             <li className='redes1'>
                                 <a href="https://github.com/Yhanahi-Rosenthal" className="redes1" target='_blank'><img src='./imgs/github1.png' className='redes'/></a>
                                 <a href="https://www.linkedin.com/in/yhanahi-rosenthal/" className="redes1" target='_blank'><img src='./imgs/in.png' className='redes'/></a>

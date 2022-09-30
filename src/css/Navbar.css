@@ -199,7 +199,7 @@
                 text-align: center;
                 color: #ffffff;
                 text-decoration: none;
-                font-size: 0.8rem;
+                font-size: 1rem;
                 transition: 0.2s;
             }
 
@@ -232,7 +232,7 @@
             }
             .containerImg{
                 display: flex;
-                justify-content: flex-start;
+                justify-content: flex-end;
                 position:fixed ;
                 width: 100%;
                 background-color: rgba(38, 16, 54, 0.897);
@@ -251,7 +251,7 @@
 
             .content{
                 padding: 0.1rem;
-                margin: 0.5rem 0;
+                margin: 0.5rem 0.5rem;
             }
 
             .containerImg .content{
@@ -280,7 +280,7 @@
                 -webkit-animation: blink-2 3s infinite both;
 	            animation: blink-2 3s infinite both;
                 border-bottom: solid #ffaa0082;
-                margin:0 0 0 -2rem;
+                margin:0 0 0 -21rem;
                 transition: 0.3s;
             }
 
@@ -295,4 +295,44 @@
                 justify-content: center;
                 margin: 1rem;
             }
+  }
+
+  @media screen and (max-width: 415px){
+    .containerImg .content ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-color: rgba(38, 16, 54, 0.897);
+        width: 100%;
+        height: 80%;
+        position: fixed;
+        -webkit-animation: blink-2 3s infinite both;
+        animation: blink-2 3s infinite both;
+        border-bottom: solid #ffaa0082;
+        margin:0 0 0 -19rem;
+        transition: 0.3s;
+    }
+  }
+
+  @media screen and (max-width: 360px){
+    .containerImg .content ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        background-color: rgba(38, 16, 54, 0.897);
+        width: 100%;
+        height: 80%;
+        position: fixed;
+        -webkit-animation: blink-2 3s infinite both;
+        animation: blink-2 3s infinite both;
+        border-bottom: solid #ffaa0082;
+        margin:0 0 0 -16rem;
+        transition: 0.3s;
+    }
   }
