@@ -244,14 +244,14 @@
       border-radius: 1rem;
       width: 25rem;
       height: 26rem;
-      margin:0 3rem 18rem 0;
+      margin:0 3rem 20rem 0;
   } 
   .pepe{
     z-index: -999;
     position: absolute;
     margin: 25rem 0 0 0;
     width: 100%; 
-    height: 60vh;
+    height: 40vh;
   }
   .stars{
     z-index: -999;
