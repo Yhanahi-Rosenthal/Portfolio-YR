@@ -190,6 +190,16 @@
 
 @media screen and (max-width: 426px) {
 
+    .backphoto{
+        z-index: -1;
+        position: absolute;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .IAM{
+        margin-top: 2rem;
+    }
 
     .IAM p{
         margin: 0 0 0 4rem;
