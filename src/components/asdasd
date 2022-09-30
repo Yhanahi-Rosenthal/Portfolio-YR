@@ -1,0 +1,124 @@
+<div>          
+            <div className='containerImg'>
+                <ul className='content'>
+                    <li className='imgimg'><img src='./imgs/menu.png' className='menu'/>
+                        <ul>
+                            <li><NavLink to='/Home' className='LinkNavbar' activeClassName='active' >Home</NavLink></li>
+                            <li><NavLink to='/Skills' className='LinkNavbar' activeClassName='active'>Skills</NavLink></li>
+                            <li><NavLink to='/MyProjects' className='LinkNavbar' activeClassName='active' >MyProjects</NavLink></li>
+                            <li><NavLink to='/Contact' className='LinkNavbar' activeClassName='active' >Contact</NavLink></li>
+                            <li className='redes1'>
+                                <a href="https://github.com/Yhanahi-Rosenthal" className="redes1" target='_blank'><img src='./imgs/github1.png' className='redes'/></a>
+                                <a href="https://www.linkedin.com/in/yhanahi-rosenthal/" className="redes1" target='_blank'><img src='./imgs/in.png' className='redes'/></a>
+                            </li>
+                        </ul>
+                    </li>                 
+                </ul>
+            </div>
+        </div>  
+
+        .LinkNavbar1{
+                
+            text-align: center;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 0.8rem;
+            transition: 0.2s;
+        }
+
+        .redes1{
+            margin: 0.3rem;
+            border-radius: 20rem;
+            width: 0.6rem;
+            transition: 0.2s;
+        }
+        
+        .active1{
+            transition: 0.5s;
+            color: #ffffff;
+            text-decoration: none;
+            transform: scale(1.2);
+            font-size: 1.2rem;
+            border-bottom: solid #ffffff;
+            text-shadow: 0 0 0.1rem;
+        }
+        
+        .redes{
+            margin: 0.3rem;
+            border-radius: 20rem;
+            width: 1.6rem;
+            transition: 0.2s;
+        }
+        
+        .redes:hover{
+            filter: invert();
+        }
+        .containerImg{
+            display: flex;
+            justify-content: flex-start;
+            position:fixed ;
+            width: 100%;
+            background-color: rgba(38, 16, 54, 0.897);
+        }
+
+        .menu{
+            filter: invert();
+            width: 0.8rem;
+            padding: 3px;
+        }
+
+        .imgimg{
+            width: 1rem;
+            height: 1rem;
+        }
+
+        .content{
+            padding: 0.1rem;
+            margin: 0.5rem 0;
+        }
+
+        .containerImg .content{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            border: solid rgba(255, 255, 255, 0.433);
+            border-radius: 0.2rem;
+            width: 1rem;
+            height: 1rem;
+            /* margin: 0 0 0 2rem; */
+        }
+
+
+        .containerImg .content ul{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            background-color: rgba(38, 16, 54, 0.897);
+            width: 100%;
+            height: 80%;
+            position: fixed;
+            -webkit-animation: blink-2 3s infinite both;
+            animation: blink-2 3s infinite both;
+            border-bottom: solid #ffaa0082;
+            margin:-60rem 0 0 -2rem;
+            transition: 0.3s;
+        }
+
+
+        .containerImg .content ul li{
+            padding: 1rem;
+            
+        }
+
+        .containerImg .content ul .redes1{
+            display: flex;
+            justify-content: center;
+            margin: 1rem;
+        }
+
+        .containerImg .content:hover ul{
+            margin: 0 0 0 -2rem;
+        }
