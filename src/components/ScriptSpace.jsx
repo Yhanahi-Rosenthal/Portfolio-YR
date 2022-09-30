@@ -59,10 +59,12 @@ let currentBack1 = null
     particlesMesh1.position.z = 10
 
     const animated = function(){
+        particlesMesh1.rotation.z += 0.001
         particlesMesh1.position.z += 0.15
         if(particlesMesh1.position.z > 4){
          particlesMesh1.position.z = -4
         }
+        particlesMesh.rotation.z += 0.001
         particlesMesh.position.z += 0.15
         if(particlesMesh.position.z > 4){
          particlesMesh.position.z = -4

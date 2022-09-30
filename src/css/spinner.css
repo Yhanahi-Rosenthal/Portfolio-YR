@@ -99,4 +99,30 @@
 
   .background p{
     color: rgb(250, 146, 0);
+    text-shadow: 0 0 1rem #ffaa00;
+    -webkit-animation: blink-22 0.9s infinite both;
+	        animation: blink-22 0.9s infinite both;
+  }
+
+  @-webkit-keyframes blink-22 {
+    0% {
+        text-shadow: 0 0 0.5rem #ffaa00;
+    }
+    50% {
+        text-shadow: 0 0 0.5rem #ffaa0042;
+    }
+    100% {
+        text-shadow: 0 0 0.5rem #ffaa00;
+    }
+  }
+  @keyframes blink-22 {
+    0% {
+        text-shadow: 0 0 0.5rem #ffaa00;
+    }
+    50% {
+        text-shadow: 0 0 0.5rem #ffaa0043;
+    }
+    100% {
+        text-shadow: 0 0 0.5rem #ffaa00;
+    }
   }
