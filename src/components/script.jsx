@@ -20,7 +20,7 @@ let currentMount = null
         scene.add(camera)
 
     // Renderer
-    const renderer = new THREE.WebGLRenderer() //alpha:true --> background trasparente.
+    const renderer = new THREE.WebGLRenderer({alpha:true}) //alpha:true --> background trasparente.
     
   
     
