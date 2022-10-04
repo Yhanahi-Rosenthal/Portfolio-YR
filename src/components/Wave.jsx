@@ -1,6 +1,5 @@
 import {useRef, useEffect} from "react";
 import {cleanUpWave, mountWave} from './ScriptWave';
-import "../css/myproject.css";
 
 const Wave = () => {
 

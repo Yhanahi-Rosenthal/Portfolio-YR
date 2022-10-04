@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import Bg from './Bg';
 import fondo from '../img/fondo1.png';
 import fondo3 from '../img/fondo4.png';
-import '../css/Home.css';
 import Spinner from './Spinner';
 
 

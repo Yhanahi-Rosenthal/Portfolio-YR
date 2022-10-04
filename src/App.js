@@ -1,5 +1,5 @@
 import { BrowserRouter} from "react-router-dom";
-import './App.css';
+import './css/style.scss';
 import ChangePage from './components/ChangePage';
 
 function App() {

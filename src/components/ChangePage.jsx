@@ -4,9 +4,7 @@ import Home from './Home';
 import MyProjects from './MyProjects';
 import Contact from './Contact';
 import {Route, Routes, useLocation} from 'react-router-dom';
-import {AnimatePresence} from "framer-motion";
 import Footer from './Footer';
-import Scene from './Scene';
 
 function ChangePage(){
 

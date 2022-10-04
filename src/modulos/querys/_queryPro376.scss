@@ -1,0 +1,38 @@
+@media screen and (max-width: 376px){
+    .titlePro{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 0.5rem;
+        margin:-1rem 0 -10rem 0.5rem;
+    }
+    .myProjectContainer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 10rem 0 4rem 0;
+    }
+    .card{
+        border: solid;
+        border-color: rgba(255, 255, 255, 0.088);
+        border-radius:1rem;
+        box-shadow: rgb(0, 0, 0) 0 0 1rem;
+        margin: 1rem 0 1rem 1.3rem;
+        width: 14.5rem;
+        height: 10rem;
+        overflow: hidden;
+        
+    }
+    .linkMyProject{
+        opacity: 0;
+        position: absolute;
+        margin: 1rem 0 0 1.3rem;
+        background-color: rgba(255, 255, 255, 0.863);
+        width: 14.4rem;
+        height: 10rem;
+        border: solid;
+        border-color: rgba(255, 255, 255, 0.088);
+        border-radius:1rem;
+        transition: 0.3s;
+    }
+}

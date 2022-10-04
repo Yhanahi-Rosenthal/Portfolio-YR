@@ -1,6 +1,5 @@
 import {useRef, useEffect} from "react";
 import {cleanUpSpace, mountSpace} from './ScriptSpace';
-import '../css/space.css'
 
 const Space = () => {
 

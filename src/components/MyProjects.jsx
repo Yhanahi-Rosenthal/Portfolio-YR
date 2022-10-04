@@ -1,6 +1,4 @@
 import Wave from './Wave';
-import '../css/myproject.css';
-import {Link} from 'react-router-dom';
 import Shein from '../img/SheinImage.png'
 import Cake from '../img/cake.png'
 import Blent from '../img/blent.png'
@@ -29,16 +27,6 @@ export default function MyProjects(){
                 </div>
                 <div className='myProjectContainer'>
                     <div className='myProjectCard'>
-                        <a href='https://shein-shein.vercel.app/' className='linkMyProject' target='_blank'>
-                            <div className='cardcard'>
-                                <p className='boton'>Ir a la pagina</p>
-                            </div>                         
-                        </a>
-                         <div className='card'>
-                            <img src={Shein} className='img' />
-                        </div>
-                    </div>
-                    <div className='myProjectCard'>
                         <a href='https://cake-theta.vercel.app/Inicio' className='linkMyProject' target='_blank'>
                             <div className='cardcard'>
                                 <p className='boton'>Ir a la pagina</p>
@@ -56,6 +44,16 @@ export default function MyProjects(){
                         </a>
                          <div className='card'>
                             <img src={Blent} className='img' />                            
+                        </div>
+                    </div>
+                    <div className='myProjectCard'>
+                        <a href='https://shein-shein.vercel.app/' className='linkMyProject' target='_blank'>
+                            <div className='cardcard'>
+                                <p className='boton'>Ir a la pagina</p>
+                            </div>                         
+                        </a>
+                         <div className='card'>
+                            <img src={Shein} className='img' />
                         </div>
                     </div>
                 </div>

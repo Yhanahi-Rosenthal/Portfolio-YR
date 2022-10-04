@@ -1,0 +1,24 @@
+body{
+    background-color:#180023;
+    color: white;
+  }
+  
+  .pagecover{
+    transition: 2s;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 6px;          
+  }
+  
+  body::-webkit-scrollbar:horizontal{
+    height: 0.1px;       
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgba(194, 10, 255, 0.049);       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+      background-color: rgba(255, 255, 255, 0.307);     
+  }

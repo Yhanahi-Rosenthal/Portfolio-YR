@@ -1,0 +1,50 @@
+@media screen and (max-width: 376px){
+    .myskills p{
+      height: 0;
+      transition: 0.2s;
+      font-size: 2.5rem;
+    }
+    
+    .myskills p:hover{
+      font-size: 2.9rem;
+      color: orange;
+    }
+    .myskills{
+      z-index: -99;
+      position: absolute;
+      margin: -11rem 0 0 2rem;
+      height: 0;
+    }
+    .skill p{
+      margin: 2rem 2rem 0 2rem;
+      text-align: center;
+      font-size: 0.7rem;
+      color: white;
+    }
+    .link1{
+      margin: 2rem 2rem 0 2rem;
+      text-align: center;
+      color: #ffaa00;
+      font-size: 0.8rem;
+  
+    }
+    .backbackskill{
+      display: flex;
+      margin: 10rem 0 0 3rem;
+    }
+    .backskill{
+      background-color: rgba(78, 78, 78, 0.077);
+        box-shadow: 0 0 1rem black;
+        border-radius: 1rem;
+        width: 25rem;
+        height: 27rem;
+        margin:0 3rem 10.5rem 0;
+    } 
+    .pepe{
+      z-index: -999;
+      position: absolute;
+      margin: 28rem 0 0 1.5rem;
+      width:80%; 
+      height: 40vh;
+    }
+  }

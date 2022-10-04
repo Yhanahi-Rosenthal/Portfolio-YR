@@ -1,7 +1,6 @@
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import '../css/Navbar.css';
-import Bg from './Bg';
 
 export default function Navbar(){
 

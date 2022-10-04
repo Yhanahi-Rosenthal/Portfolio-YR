@@ -1,6 +1,5 @@
 import {useRef, useEffect} from "react";
 import { cleanUpScene, mountScene } from "./script";
-import "../css/Skills.css";
 
 const Scene = () => {
 

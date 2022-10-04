@@ -1,6 +1,5 @@
 import {useRef, useEffect} from "react";
 import {cleanUpStars, mountStars} from './Start';
-import "../css/Skills.css";
 
 const StarsScene = () => {
 

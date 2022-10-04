@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import '../css/spinner.css'
 
 function Spinner(){
 

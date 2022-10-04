@@ -1,5 +1,3 @@
-import "../css/Skills.css";
-import { motion } from 'framer-motion'
 import { Link } from "react-router-dom";
 import Scene from './Scene';
 import StarsScene from './StarsScene';

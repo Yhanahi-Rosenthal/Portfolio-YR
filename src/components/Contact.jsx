@@ -1,5 +1,4 @@
 import Space from './Space';
-import '../css/contact.css';
 import Spinner from './Spinner';
 
 
