@@ -60,6 +60,26 @@
     }
 }
 
+@media screen and (max-width: 720px){
+    .backfooter{
+        z-index: -1;
+        background-color: rgba(36, 6, 50, 0.558);
+        position: absolute;
+        margin: 3rem 0 0 0;
+        width: 110%;
+        height: 3rem;
+        box-shadow: 0 0 0.3rem rgb(122, 87, 0);
+        display: flex;
+        justify-content: flex-start;
+    }
+    .backfooter p{
+        margin: 1rem 4rem 0 2rem;
+        text-align: end;
+        color: white;
+        font-size: 0.6rem;
+    }
+}
+
 @media screen and (max-width: 426px){
     .backfooter{
         z-index: -1;
